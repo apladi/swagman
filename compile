@@ -1,0 +1,1 @@
+clang src/*.c -o bin/main -lSDL2 -lSDL2_image -lSDL2_mixer
