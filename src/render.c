@@ -1,5 +1,7 @@
 #include "definitions.h"
 
+/* Contains the functions that renders (mind blown) */
+
 void renderFn() {
 	tile64R.x = 0;
 	tile64R.y = 0;

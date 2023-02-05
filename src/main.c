@@ -8,6 +8,8 @@
 #define WIDTH  960
 #define HEIGHT 576
 
+/* structure is here because idk what i'm doing */
+
 struct {
 	int speed;
 	int running;

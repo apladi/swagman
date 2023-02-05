@@ -2,6 +2,8 @@
 #include <SDL2/SDL_mixer.h>
 #include "definitions.h"
 
+/* Function for loading all textures and checking if they loaded or not */
+
 void loadFn() {
 	player  = IMG_LoadTexture(render, "textures/player.png");
 	grass   = IMG_LoadTexture(render, "textures/grass.png");
@@ -41,6 +43,6 @@ void loadFn() {
 	tile32R.h = 32;
 	tile32R.x = 0;
 	tile32R.y = 0;
-	
+
 	printf("Loading complete.\n");
 }

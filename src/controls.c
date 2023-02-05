@@ -1,6 +1,7 @@
 #include "definitions.h"
 
 /* I haven't yet made struct app global */
+/* I am an idiot */
 
 void checkKeystateFn(void) {
 	if (keystate[SDL_SCANCODE_UP]) {
